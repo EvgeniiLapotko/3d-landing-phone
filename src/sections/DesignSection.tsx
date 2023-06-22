@@ -58,7 +58,7 @@ const TextContainer2 = styled.p`
   justify-content: center;
   align-items: flex-end;
   color: var(--dark);
-
+  z-index: 100;
   span {
     font-size: var(--fontxxl);
     width: 80%;

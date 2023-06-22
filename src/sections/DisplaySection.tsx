@@ -42,6 +42,7 @@ const MainTitle = styled.h1`
   background-clip: content-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  z-index: 10;
 
   @media screen and (max-width: 70em) {
     font-size: var(--fontxxxl);
@@ -62,12 +63,14 @@ const TextBlockRight = styled.div`
   flex-direction: column;
   align-items: flex-end;
   width: 50%;
+  z-index: 10;
 `;
 const TextBlockLeft = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
+  z-index: 10;
 `;
 
 const Title = styled.div`

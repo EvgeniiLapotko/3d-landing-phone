@@ -36,6 +36,7 @@ export function Model(props) {
       .to(scene.rotation, { y: 0.8 })
       .to(scene.rotation, { y: 0.8 })
       .to(scene.rotation, { y: 3 })
+      .to(scene.rotation, { y: 3 })
       .to(scene.rotation, { z: 1.58 })
       .to(camera.position, { z: 4 })
       .to(camera.position, { z: 4 })
